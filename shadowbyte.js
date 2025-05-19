@@ -11,7 +11,7 @@ const bgPlayer = document.querySelector("#bgPlayer");
 
 const shadowByteApp = ` 
     <audio id="bgPlayer"loop controls autoplay="true" volume="0.5" >
-        <source src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/bg.mp3" type="audio/mp3">
+        <source src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/bg.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio> 
 `;       
@@ -31,14 +31,14 @@ document.addEventListener('mousemove', playSoundOnMouseMove);
 
 
 /*Audio*/
-const bgMusic = new Audio("https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/bg.mp3");
+const bgMusic = new Audio("https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/bg.mp3");
 /*bgMusic.play();*/
-const startAudio = new Audio("https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/start_01.mp3");
+const startAudio = new Audio("https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/start_01.mp3");
 /*startAudio.play()*/
-const errorAudio = new Audio("https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/error_01.mp3");
-const incompleteAudio = new Audio("https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/incomplete_01.mp3");
-const gameOverAudio = new Audio("https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/gameover_01.mp3");
-const winAudio = new Audio("https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/win_01.mp3");
+const errorAudio = new Audio("https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/error_01.mp3");
+const incompleteAudio = new Audio("https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/incomplete_01.mp3");
+const gameOverAudio = new Audio("https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/gameover_01.mp3");
+const winAudio = new Audio("https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/win_01.mp3");
 
 function startTimer(duration, timeDisplay) {
     let timer = duration, hours, minutes, seconds;
@@ -131,7 +131,7 @@ const stageZero = `
                         <div class="col-md-12 position-relative">
                             <h1 class="text-center text-danger">ALERTA CIBER ATAQUE EN PROCESO</h1>
                             <video autoplay loop width="100%" height="auto" style="aspect-ratio: 16/9;">
-                                <source src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-1.mp4" type="video/mp4">
+                                <source src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-1.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="w-100 p-4 text-center" style="background: rgba(0,0,0,.8)">
@@ -148,7 +148,7 @@ stageLoader.innerHTML = stageZero;
 
 const stageOne =  `  <div class="row">
                         <div class="col-md-6">
-                            <img src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-04.jpg" class="img-fluid">
+                            <img src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-04.jpg" class="img-fluid">
                             <p class="text-center">Las respuestas están a su alrededor.</p>
                         </div>
                         <div class="col-md-6">                            
@@ -228,7 +228,7 @@ const stageTwo =  `<div class="row">
                         </div>
                         <div class="col-md-6">
                             
-                            <img src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-03.jpg" class="img-fluid"> 
+                            <img src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-03.jpg" class="img-fluid"> 
                             <p class="text-center">No puedo esperar a que falles</p> 
                         </div>
                     </div>                     
@@ -272,7 +272,7 @@ function validateFormTwo() {
 /*Phase three: Displays a form with 3 questions, validates correct answers if correct goes to success stage else its game over*/
 const stageThree =  `<div class="row">
                         <div class="col-md-6">
-                            <img src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-02.jpg" class="img-fluid">
+                            <img src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-02.jpg" class="img-fluid">
                             <p class="fs-5  text-center">La IA  es aliada o enemiga un copiloto sería ideal en esta travesía</p>
                         </div>
                         <div class="col-md-6"> 
@@ -333,7 +333,7 @@ const stageThree =  `<div class="row">
 const stageGameOver =  `<div class="row">
                             <div class="col-md-12 position-relative">                            
                                 <video autoplay width="100%" height="auto" style="aspect-ratio: 16/9;">
-                                    <source src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-3.mp4" type="video/mp4">
+                                    <source src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-3.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 <div class="w-100 p-4 text-center"  style="background: rgba(0,0,0,.8)">
@@ -347,7 +347,7 @@ const stageGameOver =  `<div class="row">
 const stageEnding =  `<div class="row">
                         <div class="col-md-12 position-relative">
                             <video autoplay width="100%" height="auto" style="aspect-ratio: 16/9;">
-                                <source src="https://rgintcomexftprepodata.blob.core.windows.net/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-2.mp4" type="video/mp4">
+                                <source src="https://marketing-images.intcomex.com/images/xam/2024/NOV/XAM-vbs-2025/img/ShadowByte-2.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="w-100 p-4 text-center" style="background: rgba(0,0,0,.8)">
