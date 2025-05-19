@@ -1,0 +1,10 @@
+body { background-color: black; font-size: 1.3rem;}
+
+@font-face {
+    font-family: digital-7;
+    src: url(../fonts/digital-7.ttf);
+  }
+  
+.digital-7 {
+    font-family: digital-7;
+  }
